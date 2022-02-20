@@ -14,6 +14,6 @@
 * Water level indicator sensor to detect level of water for washing clothes.
 * Temperature sensor for determining the water temperature.
 * Weighing sensor for determining weight of clothes.
-* If top lid of wash-tub is accidentally open then machine should stop in less than 10 sec.
+* If top lid of wash-tub is accidentally opened then machine should stop in less than 10 sec.
 * Machine shall be able to choose correct amount of detergent required based on weight of clothes while operating in automatic mode.
 * In manual mode user shall be able to choose any of the basic feature. 
