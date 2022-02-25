@@ -51,3 +51,8 @@ HLR02 | LLR03 | Microcontroller shall turn on Buzzer circuit |
 * DC motor actuator
   
   This is our future scope we will try to attach a exhaust fan via dc motor. This shall exhaust the hazardous gases and moisture out of the house.    
+## Smoke detector types and applications
+* Spot-type smoke detectors on 30 feet or less spacing—all spaces with ceiling heights 15 feet or less
+* Linear beam smoke detectors—all spaces with ceilings greater than 15 feet
+* Active air sampling smoke detectors—all spaces with high air flow or spaces with high ceilings and a goal of early detection
+* Duct-type smoke detectors—all applications where the goal is to prevent the recirculation of smoke via the HVAC system
