@@ -6,7 +6,15 @@ smoke alarms, generally issue a local audible or visual alarm from the detector 
 * Domestic smoke detectors range from individual battery-powered units, to several interlinked mains-powered units with battery backup; with these interlinked units,
 if any unit detects smoke, all trigger even if household power has gone out.
 ## Requirements
+### High Level Requirements
 ID | Requirement | Status
 --- | --- | ---
 HLR01 | Analog Sensors threshold value shall be selected as per required | 
-HLR02 | Green LED shall be ON untill it reaches threshold |
+HLR02 | The Buzzer shall beep/sound on reaching threshold value of analog sensor |
+HLR03 | The DC motor(exhaust) shall start on reaching threshold value of analog sensor |
+### Low Level Requirements
+HLR_ID | LLR_ID | Requirement | Status
+--- | --- | --- | ---
+HLR01 | LLR01 | Green LED shall be ON untill it reaches threshold | 
+HLR01 | LLR02 | Red LED shall trun ON after threshold value has been reached |
+HLR02 | LLR03 | Microcontroller shall turn on Buzzer circuit | 
