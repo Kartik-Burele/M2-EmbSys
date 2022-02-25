@@ -20,4 +20,34 @@ HLR01 | LLR02 | Red LED shall trun ON after threshold value has been reached |
 HLR02 | LLR03 | Microcontroller shall turn on Buzzer circuit | 
 ## Block Diagram
 ![Smoke_Detector drawio](https://user-images.githubusercontent.com/98891749/155708952-84cfb995-d92f-4c11-810c-cdb3040e7692.png)
+## Components
+* MQ2 Smoke/Gas Sensor
 
+  The MQ-2 smoke sensor is sensitive to smoke and to the following flammable gases:
+  LPG, Butane, Propane, Methane, Alcohol, Hydrogen.
+  The resistance of the sensor is different depending on the type of the gas.
+  The smoke sensor has a built-in potentiometer that allows you to adjust the sensor sensitivity according to how accurate you want to detect gas.
+  * How does it works?
+
+    The voltage that the sensor outputs changes accordingly to the smoke/gas level that exists in the atmosphere. 
+    The sensor outputs a voltage that is proportional to the concentration of smoke/gas.
+    In other words, the relationship between voltage and gas concentration is the following:
+    The greater the gas concentration,the greater the output voltage.
+    The lower the gas concentration,the lower the output voltage.
+    
+  * The output can be an analog signal (A0) that can be read with an analog input of the Microcontroller or a digital output (D0) that can be read with a digital input of the Microcontroller.
+* Red LED
+  
+  This shall glow after reaching the threshold value of analog sensor.
+* Green LED
+  
+  This shall glow untill reaching the threshold value of analog sensor.
+* Buzzer 
+  
+  This shall sound after reaching the threshold value of analog sensor.
+* Power supply
+  
+  This is provided by external battery or can be provided by our microcontroller itself.
+* DC motor actuator
+  
+  This is our future scope we will try to attach a exhaust fan via dc motor. This shall exhaust the hazardous gases and moisture out of the house.    
