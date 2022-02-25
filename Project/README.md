@@ -9,15 +9,15 @@ if any unit detects smoke, all trigger even if household power has gone out.
 ### High Level Requirements
 ID | Requirement | Status
 --- | --- | ---
-HLR01 | Analog Sensors threshold value shall be selected as per required | 
-HLR02 | The Buzzer shall beep/sound on reaching threshold value of analog sensor |
-HLR03 | The DC motor(exhaust) shall start on reaching threshold value of analog sensor |
+HLR01 | Analog Sensors threshold value shall be selected as per required | To be done
+HLR02 | The Buzzer shall beep/sound on reaching threshold value of analog sensor | To be done
+HLR03 | The DC motor(exhaust) shall start on reaching threshold value of analog sensor | To be done
 ### Low Level Requirements
 HLR_ID | LLR_ID | Requirement | Status
 --- | --- | --- | ---
-HLR01 | LLR01 | Green LED shall be ON untill it reaches threshold | 
-HLR01 | LLR02 | Red LED shall trun ON after threshold value has been reached |
-HLR02 | LLR03 | Microcontroller shall turn on Buzzer circuit | 
+HLR01 | LLR01 | Green LED shall be ON untill it reaches threshold | To be done
+HLR01 | LLR02 | Red LED shall trun ON after threshold value has been reached | To be done
+HLR02 | LLR03 | Microcontroller shall turn on Buzzer circuit | To be done
 ## Block Diagram
 ![Smoke_Detector drawio](https://user-images.githubusercontent.com/98891749/155708952-84cfb995-d92f-4c11-810c-cdb3040e7692.png)
 Behavioral Diagram |  Structural Diagram
@@ -55,7 +55,10 @@ Behavioral Diagram |  Structural Diagram
   This is provided by external battery or can be provided by our microcontroller itself.
 * DC motor actuator
   
-  This is our future scope we will try to attach a exhaust fan via dc motor. This shall exhaust the hazardous gases and moisture out of the house.    
+  This is our future scope we will try to attach a exhaust fan via dc motor. This shall exhaust the hazardous gases and moisture out of the house.
+* Microcontroller
+  
+  We will use arduino uno MCU which contains ATmega328 Microcontroller.
 ## Smoke detector types and applications
 * Spot-type smoke detectors on 30 feet or less spacing—all spaces with ceiling heights 15 feet or less
 * Linear beam smoke detectors—all spaces with ceilings greater than 15 feet
