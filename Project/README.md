@@ -1,11 +1,21 @@
-## Abstract
+# Smoke detector system
+***
+## Table of contents
+1. [Introduction](#Introduction)
+2. [Requirements](#Requirements)
+3. [Block Diagram](#BlockDiagram)
+4. [Architecture](#architecture)
+5. [Components](#components)
+6. [Smoke detector types and applications](#Smoke-detector-types-and-applications)
+
+## Introduction <a name="Introduction"></a>
 * Smoke detector is a device that senses smoke, typically as an indication of fire.
 * Commercial security devices issue a signal to a fire alarm control panel as a part of a fire alarm system, while household smoke detectors, also known as
 smoke alarms, generally issue a local audible or visual alarm from the detector itself or several detectors if there are multiple smoke detectors interlinked. 
 * Smoke can be detected either optically (photoelectric) or by physical process (ionization): detectors may use either, or both, methods.
 * Domestic smoke detectors range from individual battery-powered units, to several interlinked mains-powered units with battery backup; with these interlinked units,
 if any unit detects smoke, all trigger even if household power has gone out.
-## Requirements
+## Requirements <a name="Requirements"></a>
 ### High Level Requirements
 ID | Requirement | Status
 --- | --- | ---
@@ -18,14 +28,15 @@ HLR_ID | LLR_ID | Requirement | Status
 HLR01 | LLR01 | Green LED shall be ON untill it reaches threshold | To be done
 HLR01 | LLR02 | Red LED shall trun ON after threshold value has been reached | To be done
 HLR02 | LLR03 | Microcontroller shall turn on Buzzer circuit | To be done
-## Block Diagram
+## Block Diagram <a name="BlockDiagram"></a>
 ![Smoke_Detector drawio](https://user-images.githubusercontent.com/98891749/155708952-84cfb995-d92f-4c11-810c-cdb3040e7692.png)
-Behavioral Diagram |  Structural Diagram
+## Architecture <a name="architecture"></a>
+Behavioral Diagram (Flow chart) |  Structural Diagram (Use case)
 --- | ---
 ![SDFC_M2 drawio (1)](https://user-images.githubusercontent.com/98891749/155784422-11f19fb4-d5bf-4cf6-a68b-77e5d1d49230.png) | ![SDUseCase_M2 drawio (1)](https://user-images.githubusercontent.com/98891749/155754911-1e79706c-04da-4133-93df-d9432319ce01.png)
 
 
-## Components
+## Components<a name="components"></a>
 * MQ2 Smoke/Gas Sensor
 
   The MQ-2 smoke sensor is sensitive to smoke and to the following flammable gases:
@@ -59,7 +70,7 @@ Behavioral Diagram |  Structural Diagram
 * Microcontroller
   
   We will use arduino uno MCU which contains ATmega328 Microcontroller.
-## Smoke detector types and applications
+## Smoke detector types and applications<a name="Smoke-detector-types-and-applications"></a>
 * Spot-type smoke detectors on 30 feet or less spacing—all spaces with ceiling heights 15 feet or less
 * Linear beam smoke detectors—all spaces with ceilings greater than 15 feet
 * Active air sampling smoke detectors—all spaces with high air flow or spaces with high ceilings and a goal of early detection
