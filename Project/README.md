@@ -2,11 +2,13 @@
 ***
 ## Table of contents
 1. [Introduction](#Introduction)
-2. [Requirements](#Requirements)
-3. [Block Diagram](#BlockDiagram)
-4. [Architecture](#architecture)
-5. [Components](#components)
-6. [Smoke detector types and applications](#Smoke-detector-types-and-applications)
+2. [SWOT analysis](#swot)
+3. [5W's and 1H](#5w1h)
+4. [Requirements](#Requirements)
+5. [Block Diagram](#BlockDiagram)
+6. [Architecture](#architecture)
+7. [Components](#components)
+8. [Smoke detector types and applications](#Smoke-detector-types-and-applications)
 
 ## Introduction <a name="Introduction"></a>
 * Smoke detector is a device that senses smoke, typically as an indication of fire.
@@ -15,6 +17,11 @@ smoke alarms, generally issue a local audible or visual alarm from the detector 
 * Smoke can be detected either optically (photoelectric) or by physical process (ionization): detectors may use either, or both, methods.
 * Domestic smoke detectors range from individual battery-powered units, to several interlinked mains-powered units with battery backup; with these interlinked units,
 if any unit detects smoke, all trigger even if household power has gone out.
+## SWOT analysis <a name="swot"></a>
+![SWOT M2](https://user-images.githubusercontent.com/98891749/155830818-2ece11c8-0f3f-4008-ae3e-e627f1fd64e4.png)
+## 5W's and 1H <a name="5w1h"></a>
+![5W1H Questions M2](https://user-images.githubusercontent.com/98891749/155830852-f65174cf-8b08-4adf-885c-d24afab0ecb7.png)
+
 ## Requirements <a name="Requirements"></a>
 ### High Level Requirements
 ID | Requirement | Status
