@@ -1,2 +1,4 @@
 # M2-EmbSys
-## Smoke detector system
+***
+## Case Studies - Microwave Oven and TWS
+## Project - Smoke detector system
