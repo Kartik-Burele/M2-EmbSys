@@ -1,5 +1,5 @@
 # Requirements
-## Introduction <a name="Introduction"></a>
+## Introduction
 * Smoke detector is a device that senses smoke, typically as an indication of fire.
 * Commercial security devices issue a signal to a fire alarm control panel as a part of a fire alarm system, while household smoke detectors, also known as
 smoke alarms, generally issue a local audible or visual alarm from the detector itself or several detectors if there are multiple smoke detectors interlinked. 
@@ -7,13 +7,13 @@ smoke alarms, generally issue a local audible or visual alarm from the detector 
 * Domestic smoke detectors range from individual battery-powered units, to several interlinked mains-powered units with battery backup; with these interlinked units,
 if any unit detects smoke, all trigger even if household power has gone out.
 ***
-## SWOT analysis <a name="swot"></a>
+## SWOT analysis 
 ![SWOT M2](https://user-images.githubusercontent.com/98891749/155830818-2ece11c8-0f3f-4008-ae3e-e627f1fd64e4.png)
 ***
 ## 5W's and 1H <a name="5w1h"></a>
 ![5W1H Questions M2](https://user-images.githubusercontent.com/98891749/155830852-f65174cf-8b08-4adf-885c-d24afab0ecb7.png)
 ***
-## Requirements <a name="Requirements"></a>
+## Requirements 
 ### High Level Requirements
 ID | Requirement | Status
 --- | --- | ---
