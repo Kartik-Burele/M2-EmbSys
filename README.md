@@ -1,4 +1,4 @@
 # M2-EmbSys
 ***
-## Case Studies - Microwave Oven and TWS
+## Case Studies - Washing Machine and TWS Earpiece with charging case
 ## Project - Smoke detector system
