@@ -18,7 +18,14 @@
 * Machine shall be able to choose correct amount of detergent required based on weight of clothes while operating in automatic mode.
 * In manual mode user shall be able to choose any of the basic feature. 
 
-
+## Applications
+* Washing all types of clothes
+* rinsing
+* spinning
+* drying
+* cold wash
+* hot wash
+***
 # Case Study 2
 
 # TWS Earpiece with charging case
