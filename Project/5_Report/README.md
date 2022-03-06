@@ -7,9 +7,10 @@
 4. [Requirements](#Requirements)
 5. [Block Diagram](#BlockDiagram)
 6. [Architecture](#architecture)
-7. [Components](#components)
-8. [Test plan](#testplan)
-9. [Smoke detector types and applications](#Smoke-detector-types-and-applications)
+7. [Circuit Diagram](#ckt)
+8. [Components](#components)
+9. [Test plan](#testplan)
+10. [Smoke detector types and applications](#Smoke-detector-types-and-applications)
 ***
 ## Introduction <a name="Introduction"></a>
 * Smoke detector is a device that senses smoke, typically as an indication of fire.
@@ -47,6 +48,9 @@ Behavioral Diagram (Flow chart) |  Structural Diagram (Use case)
 --- | ---
 ![SDFC_M2 drawio (1)](https://user-images.githubusercontent.com/98891749/155784422-11f19fb4-d5bf-4cf6-a68b-77e5d1d49230.png) | ![SDUseCase_M2 drawio (1)](https://user-images.githubusercontent.com/98891749/155754911-1e79706c-04da-4133-93df-d9432319ce01.png)
 
+***
+# Circuit Diagram <a name="ckt"></a>
+#![Smoke_detection](https://user-images.githubusercontent.com/98891749/156935518-c71a4b63-28f3-44ce-b507-ef4c64c0fb38.png)
 ***
 ## Components<a name="components"></a>
 * MQ2 Smoke/Gas Sensor
