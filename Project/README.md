@@ -7,8 +7,12 @@
 4. [Requirements](#Requirements)
 5. [Block Diagram](#BlockDiagram)
 6. [Architecture](#architecture)
-7. [Components](#components)
-8. [Smoke detector types and applications](#Smoke-detector-types-and-applications)
+7. [Circuit Diagram](#ckt)
+8. [Components](#components)
+9. [Working in SimulIDE](#simul)
+10. [Test plan](#testplan)
+11. [Output](#op)
+12. [Smoke detector types and applications](#Smoke-detector-types-and-applications)
 ***
 ## Introduction <a name="Introduction"></a>
 * Smoke detector is a device that senses smoke, typically as an indication of fire.
@@ -47,6 +51,9 @@ Behavioral Diagram (Flow chart) |  Structural Diagram (Use case)
 ![SDFC_M2 drawio (1)](https://user-images.githubusercontent.com/98891749/155784422-11f19fb4-d5bf-4cf6-a68b-77e5d1d49230.png) | ![SDUseCase_M2 drawio (1)](https://user-images.githubusercontent.com/98891749/155754911-1e79706c-04da-4133-93df-d9432319ce01.png)
 
 ***
+# Circuit Diagram <a name="ckt"></a>
+#![Smoke_detection](https://user-images.githubusercontent.com/98891749/156935518-c71a4b63-28f3-44ce-b507-ef4c64c0fb38.png)
+***
 ## Components<a name="components"></a>
 * MQ2 Smoke/Gas Sensor
 
@@ -81,6 +88,43 @@ Behavioral Diagram (Flow chart) |  Structural Diagram (Use case)
 * Microcontroller
   
   We will use arduino uno MCU which contains ATmega328 Microcontroller.
+***
+## Working in SimulIDE<a name="simul"></a>
+* As shown in circuit diagram, we have to first connect all the components accordingly.
+* As there are limited sensors available in SimulIDE, we have used a potentiometer instead of analog MQ2  Gas/smoke sensor for implementation.
+* We have also used a dc motor as an actuator to which a exhaust fan would be attached.
+* Case 1: When smokes/gases are below permissible levels
+  * Initially, system will setup LCD screen and after setting up it will show us the smoke sensor's threshold value(<400 in this case) and also the status of system which would be "CONTROLLED".
+  * In these case, the Green LED will be switched on untill it reaches threshold.
+  * Buzzer and DC motor will also be in OFF state.
+* Case 2: When smokes/gases are above permissible level
+  * As soon as the sensor reaches its threshold(400), it will trigger Red LED, Buzzer and DC motor.
+  * Red LED will signal for DANGER.
+  * Buzzer will act as an alarm.
+  * DC motor will turn ON all the exhaust fans in the room.   
+***
+## Test plan<a name="testplan"></a>
+### High Level Test plan
+ID | Requirement | Status
+--- | --- | ---
+01 | Analog Sensors threshold shall be set = 400 | :white_check_mark:
+02 | The Buzzer shall beep/sound on reaching threshold value of analog sensor | :white_check_mark:
+03 | The DC motor(exhaust fan) shall start on reaching threshold value of analog sensor | :white_check_mark:
+### Low Level Test plan
+ID | Requirement | Status
+ --- | --- | ---
+01.1 | Green LED shall be ON untill it reaches threshold | :white_check_mark:
+01.2 | Red LED shall trun ON after threshold value has been reached | :white_check_mark:
+02.1 | Microcontroller shall turn on Buzzer circuit | :white_check_mark:
+02.2 | Buzzer shall beep continuously with delay of 200ms | :white_check_mark:
+03.1 | DC motor(exhaust) shall remain off until reaching threshold | :white_check_mark:
+03.2 | DC motor(exhaust) shall start on after reaching threshold | :white_check_mark:
+***
+## Output<a name="op"></a>
+ When smokes/gases are under control | When smokes/gases are above threshold
+ --- | ---
+![Smoke_detection_Controlled](https://user-images.githubusercontent.com/98891749/156936025-554974e5-6ba7-41e2-994f-b9a3d60152b9.png) | ![Smoke_detection_Smokes](https://user-images.githubusercontent.com/98891749/156936042-2ac7da5a-e751-428e-b191-aeb5c6a9af4c.png)
+ 
 ***
 ## Smoke detector types and applications<a name="Smoke-detector-types-and-applications"></a>
 * Spot-type smoke detectors on 30 feet or less spacing—all spaces with ceiling heights 15 feet or less
