@@ -8,7 +8,8 @@
 5. [Block Diagram](#BlockDiagram)
 6. [Architecture](#architecture)
 7. [Components](#components)
-8. [Smoke detector types and applications](#Smoke-detector-types-and-applications)
+8. [Test plan](#testplan)
+9. [Smoke detector types and applications](#Smoke-detector-types-and-applications)
 ***
 ## Introduction <a name="Introduction"></a>
 * Smoke detector is a device that senses smoke, typically as an indication of fire.
@@ -81,6 +82,23 @@ Behavioral Diagram (Flow chart) |  Structural Diagram (Use case)
 * Microcontroller
   
   We will use arduino uno MCU which contains ATmega328 Microcontroller.
+***
+## Test plan<a name="testplan"></a>
+### High Level Test plan
+ID | Requirement | Status
+--- | --- | ---
+01 | Analog Sensors threshold shall be set = 400 | :white_check_mark:
+02 | The Buzzer shall beep/sound on reaching threshold value of analog sensor | :white_check_mark:
+03 | The DC motor(exhaust fan) shall start on reaching threshold value of analog sensor | :white_check_mark:
+### Low Level Test plan
+ID | Requirement | Status
+ --- | --- | ---
+01.1 | Green LED shall be ON untill it reaches threshold | :white_check_mark:
+01.2 | Red LED shall trun ON after threshold value has been reached | :white_check_mark:
+02.1 | Microcontroller shall turn on Buzzer circuit | :white_check_mark:
+02.2 | Buzzer shall beep continuously with delay of 100ms | :white_check_mark:
+03.1 | DC motor(exhaust) shall remain off until reaching threshold | :white_check_mark:
+03.2 | DC motor(exhaust) shall start on after reaching threshold | :white_check_mark:
 ***
 ## Smoke detector types and applications<a name="Smoke-detector-types-and-applications"></a>
 * Spot-type smoke detectors on 30 feet or less spacing—all spaces with ceiling heights 15 feet or less
