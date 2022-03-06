@@ -34,11 +34,11 @@ HLR01 | Analog Sensors threshold value shall be selected as per required | To be
 HLR02 | The Buzzer shall beep/sound on reaching threshold value of analog sensor | To be done
 HLR03 | The DC motor(exhaust) shall start on reaching threshold value of analog sensor | To be done
 ### Low Level Requirements
-HLR_ID | LLR_ID | Requirement | Status
---- | --- | --- | ---
-HLR01 | LLR01 | Green LED shall be ON untill it reaches threshold | To be done
-HLR01 | LLR02 | Red LED shall trun ON after threshold value has been reached | To be done
-HLR02 | LLR03 | Microcontroller shall turn on Buzzer circuit | To be done
+LLR_ID | Requirement | Status
+ --- | --- | ---
+LLR01.1 | Green LED shall be ON untill it reaches threshold | To be done
+LLR01.2 | Red LED shall trun ON after threshold value has been reached | To be done
+LLR02.1 | Microcontroller shall turn on Buzzer circuit | To be done
 ***
 ## Block Diagram <a name="BlockDiagram"></a>
 ![Smoke_Detector drawio](https://user-images.githubusercontent.com/98891749/155708952-84cfb995-d92f-4c11-810c-cdb3040e7692.png)
