@@ -10,7 +10,8 @@
 7. [Circuit Diagram](#ckt)
 8. [Components](#components)
 9. [Test plan](#testplan)
-10. [Smoke detector types and applications](#Smoke-detector-types-and-applications)
+10. [Output](#op)
+11. [Smoke detector types and applications](#Smoke-detector-types-and-applications)
 ***
 ## Introduction <a name="Introduction"></a>
 * Smoke detector is a device that senses smoke, typically as an indication of fire.
@@ -103,6 +104,12 @@ ID | Requirement | Status
 02.2 | Buzzer shall beep continuously with delay of 100ms | :white_check_mark:
 03.1 | DC motor(exhaust) shall remain off until reaching threshold | :white_check_mark:
 03.2 | DC motor(exhaust) shall start on after reaching threshold | :white_check_mark:
+***
+## Output<a name="op"></a>
+ When smokes/gases are under control | When smokes/gases are above threshold
+ --- | ---
+![Smoke_detection_Controlled](https://user-images.githubusercontent.com/98891749/156936025-554974e5-6ba7-41e2-994f-b9a3d60152b9.png) | ![Smoke_detection_Smokes](https://user-images.githubusercontent.com/98891749/156936042-2ac7da5a-e751-428e-b191-aeb5c6a9af4c.png)
+ 
 ***
 ## Smoke detector types and applications<a name="Smoke-detector-types-and-applications"></a>
 * Spot-type smoke detectors on 30 feet or less spacing—all spaces with ceiling heights 15 feet or less
