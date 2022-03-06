@@ -9,9 +9,10 @@
 6. [Architecture](#architecture)
 7. [Circuit Diagram](#ckt)
 8. [Components](#components)
-9. [Test plan](#testplan)
-10. [Output](#op)
-11. [Smoke detector types and applications](#Smoke-detector-types-and-applications)
+9. [Working in SimulIDE](#simul)
+10. [Test plan](#testplan)
+11. [Output](#op)
+12. [Smoke detector types and applications](#Smoke-detector-types-and-applications)
 ***
 ## Introduction <a name="Introduction"></a>
 * Smoke detector is a device that senses smoke, typically as an indication of fire.
@@ -87,6 +88,20 @@ Behavioral Diagram (Flow chart) |  Structural Diagram (Use case)
 * Microcontroller
   
   We will use arduino uno MCU which contains ATmega328 Microcontroller.
+***
+## Working in SimulIDE<a name="simul"></a>
+* As shown in circuit diagram, we have to first connect all the components accordingly.
+* As there are limited sensors available in SimulIDE, we have used a potentiometer instead of analog MQ2  Gas/smoke sensor for implementation.
+* We have also used a dc motor as an actuator to which a exhaust fan would be attached.
+* Case 1: When smokes/gases are below permissible levels
+  * Initially, system will setup LCD screen and after setting up it will show us the smoke sensor's threshold value(<400 in this case) and also the status of system which would be "CONTROLLED".
+  * In these case, the Green LED will be switched on untill it reaches threshold.
+  * Buzzer and DC motor will also be in OFF state.
+* Case 2: When smokes/gases are above permissible level
+  * As soon as the sensor reaches its threshold(400), it will trigger Red LED, Buzzer and DC motor.
+  * Red LED will signal for DANGER.
+  * Buzzer will act as an alarm.
+  * DC motor will turn ON all the exhaust fans in the room.   
 ***
 ## Test plan<a name="testplan"></a>
 ### High Level Test plan
