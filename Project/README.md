@@ -1,5 +1,7 @@
 # Smoke detector system
 ***
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/1dff2abee6824e258ead4b75ec56b088)](https://www.codacy.com/gh/Kartik-Burele/M2-EmbSys/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Kartik-Burele/M2-EmbSys&amp;utm_campaign=Badge_Grade)
+***
 ## Table of contents
 1. [Introduction](#Introduction)
 2. [SWOT analysis](#swot)
