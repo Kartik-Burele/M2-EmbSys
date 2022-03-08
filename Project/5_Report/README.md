@@ -13,6 +13,7 @@
 10. [Test plan](#testplan)
 11. [Output](#op)
 12. [Smoke detector types and applications](#Smoke-detector-types-and-applications)
+13. [Future Scope](#Fs)
 ***
 ## Introduction <a name="Introduction"></a>
 * Smoke detector is a device that senses smoke, typically as an indication of fire.
@@ -132,7 +133,7 @@ ID | Requirement | Status
 * Active air sampling smoke detectors—all spaces with high air flow or spaces with high ceilings and a goal of early detection
 * Duct-type smoke detectors—all applications where the goal is to prevent the recirculation of smoke via the HVAC system
 ***
-## Future Scope
+## Future Scope<a name="Fs"></a>
 * High-pressure water mist
 * Sound-triggered devices
 * Wireless devices
