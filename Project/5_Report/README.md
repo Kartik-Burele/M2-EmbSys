@@ -131,3 +131,8 @@ ID | Requirement | Status
 * Linear beam smoke detectors—all spaces with ceilings greater than 15 feet
 * Active air sampling smoke detectors—all spaces with high air flow or spaces with high ceilings and a goal of early detection
 * Duct-type smoke detectors—all applications where the goal is to prevent the recirculation of smoke via the HVAC system
+***
+## Future Scope
+* High-pressure water mist
+* Sound-triggered devices
+* Wireless devices
