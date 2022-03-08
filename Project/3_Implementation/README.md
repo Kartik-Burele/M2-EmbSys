@@ -1,1 +1,3 @@
-
+* .ino
+* .hex
+* .simu
