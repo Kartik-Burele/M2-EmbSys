@@ -13,3 +13,9 @@ ID | Requirement | Actual input | Actual output | Expected output | Status
 02.2 | Buzzer shall beep continuously with delay of 100ms | Beep | Beeped | Beeped | :white_check_mark:
 03.1 | DC motor(exhaust) shall remain off until reaching threshold | sensorthres<400 | not started | not started | :white_check_mark:
 03.2 | DC motor(exhaust) shall start on after reaching threshold | sensorthresh>400 | started | started | :white_check_mark:
+***
+## Output<a name="op"></a>
+ When smokes/gases are under control | When smokes/gases are above threshold
+ --- | ---
+![Smoke_detection_Controlled](https://user-images.githubusercontent.com/98891749/156936025-554974e5-6ba7-41e2-994f-b9a3d60152b9.png) | ![Smoke_detection_Smokes](https://user-images.githubusercontent.com/98891749/156936042-2ac7da5a-e751-428e-b191-aeb5c6a9af4c.png)
+***
