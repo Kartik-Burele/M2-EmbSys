@@ -23,7 +23,7 @@ HLR03 | The DC motor(exhaust) shall start on reaching threshold value of analog 
 ### Low Level Requirements
 HLR_ID | LLR_ID | Requirement | Status
 --- | --- | --- | ---
-HLR01 | LLR01 | Green LED shall be ON untill it reaches threshold | To be done
-HLR01 | LLR02 | Red LED shall trun ON after threshold value has been reached | To be done
+HLR01 | LLR01 | Green LED shall be ON until it reaches threshold | To be done
+HLR01 | LLR02 | Red LED shall turn ON after threshold value has been reached | To be done
 HLR02 | LLR03 | Microcontroller shall turn on Buzzer circuit | To be done
 ***
